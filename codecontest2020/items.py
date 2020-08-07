@@ -8,5 +8,7 @@ import scrapy
 
 class Codecontest2020Item(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    item_id = scrapy.Field()
+    image_id = scrapy.Field()
+    rating = scrapy.Field()
